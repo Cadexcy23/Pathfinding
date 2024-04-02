@@ -21,9 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{B2884F10-CA04-4081-9828-D5A26DF9E747}</ProjectGuid>
-    <RootNamespace>Whoisbesschess</RootNamespace>
+    <RootNamespace>Pathfinder</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Pathfinding</ProjectName>
+    <ProjectName>Pathfinder</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -71,20 +71,20 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Who is bess chess\packages\sdl2.nuget.2.30.0\build\native\include;D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Who is bess chess\packages\sdl2_image.nuget.2.8.2\build\native\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Who is bess chess\packages\sdl2.nuget.2.30.0\build\native\lib\x64;D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Who is bess chess\packages\sdl2_image.nuget.2.8.2\build\native\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Pathfinder\packages\sdl2.nuget.2.30.0\build\native\include;D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Pathfinder\packages\sdl2_image.nuget.2.8.2\build\native\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Pathfinder\packages\sdl2.nuget.2.30.0\build\native\lib\x64;D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Pathfinder\packages\sdl2_image.nuget.2.8.2\build\native\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Who is bess chess\packages\sdl2.nuget.2.30.0\build\native\include;D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Who is bess chess\packages\sdl2_image.nuget.2.8.2\build\native\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Who is bess chess\packages\sdl2.nuget.2.30.0\build\native\lib\x64;D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Who is bess chess\packages\sdl2_image.nuget.2.8.2\build\native\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Pathfinder\packages\sdl2.nuget.2.30.0\build\native\include;D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Pathfinder\packages\sdl2_image.nuget.2.8.2\build\native\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Pathfinder\packages\sdl2.nuget.2.30.0\build\native\lib\x64;D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Pathfinder\packages\sdl2_image.nuget.2.8.2\build\native\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Who is bess chess\packages\sdl2.nuget.2.30.0\build\native\include;D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Who is bess chess\packages\sdl2_image.nuget.2.8.2\build\native\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Who is bess chess\packages\sdl2.nuget.2.30.0\build\native\lib\x64;D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Who is bess chess\packages\sdl2_image.nuget.2.8.2\build\native\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Pathfinder\packages\sdl2.nuget.2.30.0\build\native\include;D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Pathfinder\packages\sdl2_image.nuget.2.8.2\build\native\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Pathfinder\packages\sdl2.nuget.2.30.0\build\native\lib\x64;D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Pathfinder\packages\sdl2_image.nuget.2.8.2\build\native\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Who is bess chess\packages\sdl2.nuget.2.30.0\build\native\include;D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Who is bess chess\packages\sdl2_image.nuget.2.8.2\build\native\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Who is bess chess\packages\sdl2.nuget.2.30.0\build\native\lib\x64;D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Who is bess chess\packages\sdl2_image.nuget.2.8.2\build\native\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Pathfinder\packages\sdl2.nuget.2.30.0\build\native\include;D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Pathfinder\packages\sdl2_image.nuget.2.8.2\build\native\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Pathfinder\packages\sdl2.nuget.2.30.0\build\native\lib\x64;D:\OLD DRIVES\OLD CODING\Coding\C++\Projects\Pathfinder\packages\sdl2_image.nuget.2.8.2\build\native\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

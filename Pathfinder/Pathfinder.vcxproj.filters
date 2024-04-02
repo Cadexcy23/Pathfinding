@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Artist.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Boot.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Artist.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{44590959-afcf-4274-b8ea-c01e5c152594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{faf93208-10e1-4ab7-be57-6a176603b397}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
