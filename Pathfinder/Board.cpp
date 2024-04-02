@@ -9,11 +9,11 @@ std::vector<std::vector<Board::node>> Board::mapNodes;
 std::vector<std::vector<bool>> Board::reachableNodes;
 
 Artist::point Board::startPoint = { 1, 1 };
-Artist::point Board::goalPoint = { 9, 9 };
+Artist::point Board::goalPoint = { 34, 34 };
 Artist::point Board::playerPoint = { 1, 1 };
 int Board::mapSize = 36;
 double playerLastMoveTime = time(NULL);
-int playerMoveSpeed = 1000;
+int playerMoveSpeed = 50;
 //controlles how big the squares are
 int scale = 720 / Board::mapSize;
 
@@ -100,8 +100,8 @@ void randGenBoard()
 		
 	
 	//set goal point to bottem right
-	Board::goalPoint.x = Board::mapNodes.size() - 2;
-	Board::goalPoint.y = Board::mapNodes.size() - 2;
+	//Board::goalPoint.x = Board::mapNodes.size() - 2;
+	//Board::goalPoint.y = Board::mapNodes.size() - 2;
 	//Board::goalPoint.x = rand() % (Board::mapNodes.size() - 2) + 1;
 	//Board::goalPoint.y = rand() % (Board::mapNodes.size() - 2) + 1;
 	//color start point and goal
